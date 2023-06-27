@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: GTIS
+  # 单机redis 配置
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+  # 生产环境建议设置密码
+  # password:
